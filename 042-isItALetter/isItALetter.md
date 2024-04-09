@@ -1,0 +1,1 @@
+Write a `isItLetter`, which tells us if a given character is a letter or not.
