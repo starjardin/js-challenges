@@ -13,6 +13,12 @@ function permutations(string) {
 		}
 	}
 
+  // for string '123'
+  // arr becomes ['1', '2', '3']
+  // for 
+  // let curr = arr.slice();
 	permute(string.split(""));
 	return [...results];
 }
+
+permutations('abc')
