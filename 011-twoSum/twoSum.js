@@ -11,7 +11,7 @@ const twoSum = function (nums, target) {
 
 // more optimised solution
 
-var twoSumOptimised = (nums, target) => {
+const twoSumOptimised = (nums, target) => {
     const numIndices = {};
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
